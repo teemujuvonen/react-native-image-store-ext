@@ -21,7 +21,6 @@ public class ImageStoreExtPackage implements ReactPackage {
         return Arrays.<NativeModule>asList(new RCTImageStoreManagerExt(reactContext));
     }
 
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
